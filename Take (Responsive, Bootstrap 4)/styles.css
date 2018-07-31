@@ -1,0 +1,154 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.general-image {
+    background-image: url(./images/masthead.jpg);
+    background-position-y: 0;
+    background-size: cover;
+    height: 900px;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.header h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.header p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header .col-lg-6:first-child {
+    margin-top: 250px;
+}
+
+.iPhone {
+    position: relative;
+    top: 110px;
+    left: -80px;
+}
+
+.firstArticles h2 {
+    font-size: 35px;
+    color: #222626;
+    margin-bottom: 30px;
+}
+
+.firstArticles h4 {
+    font-size: 14px;
+    color: #b8b8b8;
+    margin-bottom: 30px;
+}
+
+.firstArticles p {
+    font-size: 14px;
+    color: #959595;
+}
+
+.firstArticles {
+    margin-top: 100px;
+}
+
+.designQuality h2 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.designQuality p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.designQuality a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pink {
+    background-color: #F3989E;
+}
+
+.purple {
+    background-color: #61607C;
+}
+
+.photo1 {
+    background-image: url(./images/image01.jpg);
+    background-size: cover;
+}
+
+.light-purple {
+    background-color: #BC8DBE;
+}
+
+.photo2 {
+    background-image: url(./images/image02.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.green {
+    background-color: #82ca9c;
+}
+
+.photo3 {
+    background-image: url(./images/image01.jpg);
+    background-size: cover;
+}
+
+.designQuality .row div {
+    padding: 100px;
+}
+
+.designQuality {
+    padding: 100px 0;
+    width: calc(100% - 30px);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.details h2 {
+    font-size: 35px;
+    color: #222626;
+    margin-bottom: 30px;
+}
+
+.details h3 {
+    font-size: 13px;
+    color: #67676d;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.details p {
+    font-size: 14px;
+    color: #959595;
+    line-height: 24px;
+}
+
+.details {
+    margin-bottom: 100px;
+}
+
+.car-image {
+    background-image: url(./images/fullimage.jpg);
+    background-position-y: 0;
+    background-size: cover;
+    width: 700px;
+}
