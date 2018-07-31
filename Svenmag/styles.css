@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info_nav_buttons {
+    width: 1105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info_nav_buttons_ div {
+    margin-right: 35px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info_nav_buttons_ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 13pt;
+}
+
+.info_nav_buttons_ div:hover {
+    background-color: #ff7373;
+}
+
+.info_nav {
+    height: 50px;
+    background-color: #472424;
+}
+
+.navigation {
+    height: 75px;
+    background-color: #623232;
+}
+
+.navigation_logo {
+    width: 182px;
+    height: 70px;
+    background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 4px solid #623232;
+}
+
+.navigation_buttons_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 13pt;
+}
+
+.navigation_buttons_right div {
+    margin-right: 35px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 4px solid #623232;
+}
+
+.navigation_buttons_right div:hover {
+    border-bottom: 4px solid #ff7373;
+}
+
+.general_adv {
+    background-color: #f0efee;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.sneakers {
+    background-image: url(./images/sneakers.png);
+    height: 771px;
+    width: 829px;
+}
+
+.sneakers_info {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sneakers_info_p1 {
+    font-size: 30pt;
+    color: #ff7373;
+}
+
+.sneakers_info_p2 {
+    font-size: 70pt;
+    color: #623232;
+    font-weight: bolder;
+}
+
+.sneakers_info_p3 {
+    font-size: 50pt;
+    color: #ff7373;
+    font-weight: bold;
+}
+
+.sneakers_info_p4 {
+    font-size: 16pt;
+    color: #918e8b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sneakers_info_p5 {
+    background-color: #ff7373;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sneakers_info_p5:hover {
+    background-color: #623232;
+}
+
+.new_block_1 {
+    grid-area: photo1;
+    background-image: url(./images/img1.png);
+    background-size: cover;
+}
+
+.new_block_2 {
+    grid-area: photo2;
+    background-image: url(./images/img2.png);
+    background-size: cover;
+}
+
+.new_block_3 {
+    grid-area: photo3;
+    background-image: url(./images/img3.png);
+    background-size: cover;
+}
+
+.new_block_4 {
+    grid-area: photo4;
+    background-image: url(./images/img4.png);
+    background-size: cover;
+}
+
+.new_blocks {
+    margin: auto;
+    margin-top: 50px;
+    width: 1105px;
+    height: 550px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 275px 275px 275px 275px;
+    grid-template-rows: 272.5px 272.5px;
+    grid-template-areas: "photo1 photo1 photo2 photo2"
+                         "photo1 photo1 photo3 photo4"
+}
