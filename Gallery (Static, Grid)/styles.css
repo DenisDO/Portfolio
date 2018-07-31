@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+}
+
+.general_grid {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 1fr 70px;
+    grid-gap: 20px;
+}
+
+.header, .main, .footer {
+    color: black;
+    background: white;
+}
+
+.header {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h6 {
+    margin: 5px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer {
+    padding-top: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer_right {
+    margin: 5px;
+}
+
+.main_grid {
+    display: grid;
+    grid-template-columns: 1fr 1050px 1fr;
+    grid-template-rows: 100%;
+}
+
+.photo_1 {grid-area: photo_1;
+background-image: url(./images/img1.jpg);
+background-size: cover;
+box-shadow: 0 0 0px #000000;
+transition-property: box-shadow;
+transition-duration: 2s;}
+.photo_2 {grid-area: photo_2;
+    background-image: url(./images/img2.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+.photo_3 {grid-area: photo_3;
+    background-image: url(./images/img3.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+.photo_4 {grid-area: photo_4;
+    background-image: url(./images/img4.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+.photo_5 {grid-area: photo_5;
+    background-image: url(./images/img5.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+.photo_6 {grid-area: photo_6;
+    background-image: url(./images/img6.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+.photo_7 {grid-area: photo_7;
+    background-image: url(./images/img7.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+.photo_8 {grid-area: photo_8;
+    background-image: url(./images/img8.jpg);
+    background-size: cover;
+    background-position-x: 100%;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+.photo_9 {grid-area: photo_9;
+    background-image: url(./images/img9.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+.photo_10 {grid-area: photo_10;
+    background-image: url(./images/img10.jpg);
+    background-size: cover;
+    box-shadow: 0 0 0px #000000;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;}
+        .photo_11 {grid-area: photo_11;
+        background-image: url(./images/img11.jpg);
+        background-size: cover;
+        background-position-y: 80%;
+        box-shadow: 0 0 0px #000000;
+        transition-property: box-shadow;
+        transition-duration: 0.5s;}
+        .photo_12 {grid-area: photo_12;
+            background-image: url(./images/img12.jpg);
+            background-size: cover;
+        background-position-y: 50%;
+        box-shadow: 0 0 0px #000000;
+        transition-property: box-shadow;
+        transition-duration: 0.5s;}
+        .photo_13 {grid-area: photo_13;
+            background-image: url(./images/img13.jpg);
+            background-size: cover;
+            box-shadow: 0 0 0px #000000;
+            transition-property: box-shadow;
+            transition-duration: 0.5s;}
+        .photo_14 {grid-area: photo_14;
+            background-image: url(./images/img14.jpg);
+            background-size: cover;
+            box-shadow: 0 0 0px #000000;
+            transition-property: box-shadow;
+            transition-duration: 0.5s;}
+        .photo_15 {grid-area: photo_15;
+            background-image: url(./images/img15.jpg);
+            background-size: cover;
+            box-shadow: 0 0 0px #000000;
+            transition-property: box-shadow;
+            transition-duration: 0.5s;}
+        .photo_16 {grid-area: photo_16;
+            background-image: url(./images/img16.jpg);
+            background-size: cover;
+            box-shadow: 0 0 0px #000000;
+            transition-property: box-shadow;
+            transition-duration: 0.5s;}
+        .photo_17 {grid-area: photo_17;
+            background-image: url(./images/img17.jpg);
+            background-size: cover;
+            box-shadow: 0 0 0px #000000;
+            transition-property: box-shadow;
+            transition-duration: 0.5s;}
+        .photo_18 {grid-area: photo_18;
+            background-image: url(./images/img18.jpg);
+            background-size: cover;
+            box-shadow: 0 0 0px #000000;
+            transition-property: box-shadow;
+            transition-duration: 0.5s;}
+        .photo_19 {grid-area: photo_19;
+            background-image: url(./images/img19.jpg);
+            background-size: cover;
+            box-shadow: 0 0 0px #000000;
+            transition-property: box-shadow;
+            transition-duration: 0.5s;}
+        .photo_20 {grid-area: photo_20;
+            background-image: url(./images/img20.jpg);
+            background-size: cover;
+            box-shadow: 0 0 0px #000000;
+            transition-property: box-shadow;
+            transition-duration: 0.5s;}
+
+.main_gallery {
+    padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px 250px 250px;
+    grid-template-areas: "photo_1 photo_1 photo_2 photo_3"
+                         "photo_1 photo_1 photo_4 photo_5"
+                         "photo_6 photo_7 photo_8 photo_5"
+                         "photo_6 photo_9 photo_9 photo_10"
+                         "photo_12 photo_13 photo_11 photo_11"
+                         "photo_14 photo_15 photo_11 photo_11"
+                         "photo_14 photo_16 photo_16 photo_17"
+                         "photo_18 photo_19 photo_20 photo_17"
+}
+
+.photo_1:hover, .photo_2:hover, .photo_3:hover, .photo_4:hover, .photo_5:hover, .photo_6:hover, .photo_7:hover, .photo_8:hover, .photo_9:hover, .photo_10:hover, .photo_11:hover, .photo_12:hover, .photo_13:hover, .photo_14:hover, .photo_15:hover, .photo_16:hover, .photo_17:hover, .photo_18:hover, .photo_19:hover, .photo_20:hover {
+    box-shadow: inset 0 0 0 10px #ffffff;
+}
