@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+	<title>Pixelstudio</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="./styles/main.css" rel="stylesheet">
+	<script src="./bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="./bootstrap/js/dist/util.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header class="header">
+		<div class="header__flex">
+            <div class="header__logo"><a href="#">Pixelstudio</a></div>
+            <div class="header__navigation">
+                <ul>
+                    <li><a href="#anchor__home">Home</a></li>
+                    <li><a href="#anchor__portfolio">Portfolio</a></li>
+                    <li><a href="#anchor__work">My work</a></li>
+                    <li><a href="#anchor__about">About me</a></li>
+                    <li><a href="#anchor__elements">Elements</a></li>
+                    <li><a href="#anchor__contact">Contact</a></li>
+                </ul>
+			</div>
+			<label><div id="hamburger"><input type="checkbox" id="hamburger-check" /></div></label>
+			<div class="header__navigation__mobile">
+                <ul>
+                    <li><a href="#anchor__home">Home</a></li>
+                    <li><a href="#anchor__portfolio">Portfolio</a></li>
+                    <li><a href="#anchor__work">My work</a></li>
+                    <li><a href="#anchor__about">About me</a></li>
+                    <li><a href="#anchor__elements">Elements</a></li>
+                    <li><a href="#anchor__contact">Contact</a></li>
+                </ul>
+			</div>
+		</div>
+	</header>
+
+<main class="content" id="anchor__home">
+	
+	<div class="block">
+		<div class="row">
+			<div class="col-lg-12"><h1>Welcome !</h1></div>
+			<div class="col-lg-12"><div class="separator-top"></div></div>
+			<div class="col-lg-6">
+				<div class="block__article"><h2>Welcome to Pixelstudio !</h2>
+					<p>Sed sed mollis neque. Integer ac libero ligula, sit amet volutpat magna. Maecenas tincidunt nulla iaculis massa ultricies facilisis. Curabitur sagittis cursus dolor, a tempor mauris sagittis ac. Pellentesque pharetra mattis urna, sit amet euismod nunc egestas ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+					<p>Nulla fringilla tempus quam, ut ornare erat volutpat a. Cras porttitor lacus et diam aliquet hendrerit. Donec vitae tellus nec nibh bibendum tincidunt et auctor erat. Aliquam erat mauris, faucibus ultricies condimentum adipiscing, bibendum eu nulla.</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<!-- <div class="flex-column">
+					<div class="block__slider">
+						<div class="block__slider__description">
+							<p>Description for image</p>
+						</div>
+					</div>
+					<div class="block__radio">
+						<input type="radio" name="slider" checked />
+						<input type="radio" name="slider" />
+						<input type="radio" name="slider" />
+						<input type="radio" name="slider" />
+					</div>
+				</div> -->
+
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+						  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img class="d-block w-100" src="./images/slider_photo_1.jpg" alt="First slide">
+							<div class="carousel-caption d-none d-md-block">
+								<p>Description for image1</p>
+							</div>
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="./images/slider_photo_2.jpg" alt="Second slide">
+							<div class="carousel-caption d-none d-md-block">
+								<p>Description for image2</p>
+							</div>
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="./images/slider_photo3.jpg" alt="Third slide">
+							<div class="carousel-caption d-none d-md-block">
+								<p>Description for image3</p>
+							</div>
+						  </div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						  <span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						  <span class="sr-only">Next</span>
+						</a>
+				</div>
+
+
+
+			</div>
+
+
+
+			<div class="col-lg-12"><div class="separator-light"></div></div>
+			<div class="col-lg-12"><div class="row">
+			<div class="col-lg-4 block__feature__item">
+				<h3>What I do</h3>
+				<p>Donec neque libero, tincidunt ultrices tristique et, rhoncus et lacus. Phasellus varius felis nec erat malesuada dignissim. Sed aliquet, risus eu malesuada tempus.</p>
+			</div>
+			<div class="col-lg-4 block__feature__item">
+				<h3>How I do it</h3>
+				<p>Etiam ligula ante, ullamcorper vel luctus feugiat, dignissim sit amet odio. Suspendisse ultricies risus a quam tincidunt et tristique ipsum hendrerit.</p>
+			</div>
+			<div class="col-lg-4 block__feature__item">
+				<h3>About me</h3>
+				<p>Nunc luctus purus ac eros interdum ullamcorper. Pellentesque ut dolor nulla. Nunc et massa arcu, at bibendum velit. Sed ut lacus non elit tempor dignissim. Donec nibh tellus</p>
+			</div>
+			</div>
+		</div>
+			<div class="col-lg-12"><div class="separator-bottom" id="anchor__portfolio"></div></div>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="row">
+			<div class="col-lg-12"><h1>Portfolio</h1></div>
+			<div class="col-lg-12"><div class="separator-top"></div></div>
+			<div class="block__portfolio__grid">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class="col-lg-12"><div class="separator-bottom" id="anchor__work"></div></div>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="row">
+			<div class="col-lg-12"><h1>My work</h1></div>
+			<div class="col-lg-12"><div class="separator-top"></div></div>
+			<ul class="block__mywork__tab">
+				<li><a class="block__mywork__tab__link block__mywork__tab__link--active" href="#">Design</a></li>
+				<li><a class="block__mywork__tab__link" href="#">Print</a></li>
+				<li><a class="block__mywork__tab__link" href="#">Logo</a></li>
+				<li><a class="block__mywork__tab__link" href="#">Illustration</a></li>
+			</ul>
+			<div class="block__mywork__grid">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class="col-lg-12"><div class="separator-bottom" id="anchor__about"></div></div>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="row">
+			<div class="col-lg-12"><h1>About me</h1></div>
+			<div class="col-lg-12"><div class="separator-top"></div></div>
+			<div class="col-lg-8 aboutme__content">
+				<p><span class="bigLetter">N</span>am imperdiet faucibus orci ut vestibulum. Cras ut tellus ac leo blandit convallis a vitae odio. Integer molestie varius hendrerit. Ut lacinia eleifend dolor ut luctus. Sed euismod quamcongue est congue lacinia. Aliquam quam augue, fringilla faucibus consequat vitae, mollis ac nulla. Nunc at urna enim, non mollis mi. Nunc eget magna mauris. Aenean elit ligula, dignissim;</p>
+				<p>Quisque cursus libero ante, a pellentesque massa. Vestibulum et dolor ut est tincidunt aliquam. Aliquam nunc velit, ornare eu porta et, volutpat sit amet arcu. Quisque vel risus dolor. Sed blandit, sapien ac tempus faucibus, lectus massa tincidunt tortor, a commodo risus orci gravida tortor. </p>
+				<h2>Pellentesque eu metus est, id accumsan leo</h2>
+				<p>Nulla facilisi. Nam sagittis pretium iaculis. Curabitur egestas mattis dui, vitae ultricies tortor facilisis vel. Phasellus et cursus enim. Maecenas vel porta magna. Curabitur at elit ut lacus luctus mattis. Sed nibh quam, blandit vitae feugiat eu, gravida a elit. Donec commodo laoreet venenatis. Curabitur eget augue augue, in pellentesque arcu. Phasellus eget turpis nec lorem sagittis sagittis.</p>
+				<h2>Morbi viverra, neque quis</h2>
+				<p>Cras feugiat rutrum leo, at viverra nisl ornare quis. Maecenas quis quam justo. Proin molestie, massa lacinia pharetra aliquam, eros nunc ultricies magna, sit amet molestie ligula nulla vitae arcu. Donec commodo laoreet venenatis. Curabitur eget augue augue, in pellentesque arcu. Phasellus eget turpis nec lorem sagittis sagittis. Quisque porta fringilla quam, a volutpat justo imperdiet non.</p>
+				<h3>Some styled typography</h3>
+
+				<div class="aboutme__content__colorblock aboutme__content__colorblock--black"><p>Sed adipiscing lorem massa, in aliquet lectus. Nunc mollis mauris vitae est vestibulum mattis. Nunc lacus magna, aliquet sit amet elementum at, iaculis ac lacus. Maecenas et interdum erat. Sed augue dolor, fermentum ut commodo quis.</p></div>
+				<div class="aboutme__content__colorblock aboutme__content__colorblock--red"><p>Nam bibendum, purus sit amet convallis tempor, dolor lorem ullamcorper eros, vitae dapibus justo diam a elit. Duis at massa nulla, eget consequat velit. Nulla auctor, mauris eu mattis gravida, lorem neque posuere eros, quis vehicula mauris. </p></div>
+				<div class="aboutme__content__colorblock aboutme__content__colorblock--gray"><p>Praesent in tellus in urna fermentum lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla tempus pretium lorem, semper laoreet mi ornare sagittis. Id placerat leo dictum non.</p></div>
+				<div class="aboutme__content__colorblock aboutme__content__colorblock--brown"><p>Aliquam aliquam mattis varius. Fusce interdum mi nec lacus pellentesque adipiscing. Sed in augue non massa elementum rhoncus quis quis eros. Quisque viverra, dolor eu eleifend elementum, elit massa aliquam lectus, in varius odio lacus a justo.</p></div>
+			</div>
+
+
+			<div class="col-lg-4 aboutme__aside">
+				<h2>From Flickr</h2>
+				<div class="aboutme__aside__gallery">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<h2>Links</h2>
+				<ul>
+					<li><a href="#">Themeforest</a></li>
+					<div class="separator-light"></div>
+					<li><a href="#">GraphicRiver</a></li>
+					<div class="separator-light"></div>
+					<li><a href="#">CodeCanyon</a></li>
+					<div class="separator-light"></div>
+					<li><a href="#">ActiveDen</a></li>
+					<div class="separator-light"></div>
+					<li><a href="#">3DOcean</a></li>
+					<div class="separator-light"></div>
+					<li><a href="#">VideoHive</a></li>
+					<div class="separator-light"></div>
+					<li><a href="#">Audiojungle</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-12"><div class="separator-bottom" id="anchor__elements"></div></div>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="row">
+			<div class="col-lg-12"><h1>Elements & classes</h1></div>
+			<div class="col-lg-12"><div class="separator-top"></div></div>
+			<div class="col-lg-8 elements__content">
+				<p><span class="bigLetter">D</span>onec vel est elit. Morbi augue enim, lobortis a commodo vitae, sodales in arcu. Suspendisse dapibus lacinia sem at molestie. Sed auctor tempus ullamcorper. Ut sed bibendum odio. Quisque tincidunt luctus convallis. Morbi tincidunt egestas risus, non tincidunt gilla, nibh at scelerisque luctus, dui diam vestibulum justo, et venenatis nulla lectus in ligula. Ut in enim sapien, quis tempus nisi. Ut odio erat, tincidunt vitae aliquam at, vehicula eu purus. Maecenas nisl velit, ultricies vel fringilla sed, aliquam sed massa. Duis dignissim purus at sem dapibus pulvinar. Etiam eget mauris semper sem consequat commodo. Etiam tortor purus, tristique congue faucibus vel, tempor nec urna. Aliquam commodo, est sed cursus pellentesque.</p>
+                <h2>Some additional text, this is another header</h2>
+                <p>Nulla facilisi. Nam sagittis pretium iaculis. Curabitur egestas mattis dui, vitae ultricies tortor facilisis vel. Phasellus et cursus enim. Maecenas vel porta magna. Curabitur at elit ut lacus luctus mattis. Sed nibh quam, blandit vitae feugiat eu, gravida a elit. </p>
+                <ul class="elements__content__triangle">
+                    <li>Praesent molestie sapien sed arcu tempor vitae congue metus ultricies.</li>
+                    <li>Proin blandit arcu lacinia eros feugiat gravida.</li>
+                    <li>Curabitur sodales auctor arcu, eget tempus nisi lacinia at.</li>
+                </ul>
+                <p>Nunc eleifend, ante a vestibulum ultricies, neque sapien vulputate velit, eu ultrices orci velit ac turpis. Morbi id augue ac lorem dapibus aliquet id eu sem. Sed sed magna ac erat dignissim.</p>
+                <ol>
+                    <li>Morbi nec leo a lectus elementum accumsan nec a enim.</li>
+                    <li>Nunc dignissim ante nec eros rhoncus volutpat.</li>
+                    <li>Proin blandit arcu lacinia eros feugiat gravida.</li>
+                </ol>
+                <h2>This is an h2 header</h2>
+                <p>Quisque pretium, nulla non venenatis pharetra, dui mauris interdum massa, eu lobortis ipsum justo et orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <h3>This is an h3 header</h3>
+                <p>Aliquam convallis tincidunt nisl vel dictum. Mauris rhoncus purus nec eros hendrerit sit amet feugiat augue venenatis. Pellentesque quis justo aliquet urna luctus aliquet at a dolor.</p>
+                <h4>This is an h4 header</h4>
+                <p>Proin molestie molestie iaculis. Nunc iaculis condimentum massa. Etiam aliquam diam in est luctus et pellentesque dui pharetra. Morbi lobortis massa at eros pharetra id egestas neque pretium.</p>
+                <h5>This is an h5 header</h5>
+                <div class="separator-light"></div>
+                <p>Proin molestie molestie iaculis. Nunc iaculis condimentum massa. Etiam aliquam diam in est luctus et pellentesque dui pharetra. Morbi lobortis massa at eros pharetra id egestas neque pretium.</p>
+            </div>
+
+
+			<div class="col-lg-4 elements__aside">
+				<div class="elements__aside__photo"></div>
+				<h2>Testimonials</h2>
+				<div class="elements__aside__quote">
+					<p class="elements__aside__quote__item">Duis pulvinar blandit tempus. Etiam nisl ipsum, imperdiet ut adipiscing vel, porta ut justo. Aenean aliquam eleifend lacus sed convallis. Morbi aliquet ornare aliquam. Proin mollis, ipsum vitae.</p>
+					<div class="elements__aside__quote__signature">	
+						<h6>John Doe,</h6>
+						<a href="#">ABC Company</a>
+					</div>
+				</div>
+				<div class="elements__aside__quote">
+					<p class="elements__aside__quote__item">Basellus nec nunc vel erat tincidunt posuere. Nulla pulvinar nulla sit amet nunc ornare tempor. Nulla id neque eros.</p>
+					<div class="elements__aside__quote__signature">	
+						<h6>John Doe,</h6>
+						<a href="#">ABC Company</a>
+					</div>
+				</div>
+				<div class="elements__aside__quote">
+					<p class="elements__aside__quote__item">Donec tincidunt dolor sed augue fermentum et tempor lorem malesuada. Fusce ultricies, sem semper eleifend lobortis, eros erat consectetur.</p>
+					<div class="elements__aside__quote__signature">	
+						<h6>John Doe,</h6>
+						<a href="#">ABC Company</a>
+					</div>
+				</div>
+				<div class="elements__aside__textbox">
+					 <div class="elements__aside__textbox__header">
+						 <h3>This is a textbox</h3>
+					 </div>
+					 <div class="elements__aside__textbox__body">
+						 <p><b>Duis pulvinar blandit tempus.</b> Etiam nisl ipsum, imperdiet ut adipiscing vel, porta ut justo. Aenean aliquam eleifend lacus sed convallis. Morbi aliquet ornare aliquam.</p>
+						 <p><b>In velit nisi, iaculis in aliquet eget</b>, fermentum non orci. Ut commodo pharetra dui lacinia vulputate. Mauris et ante tortor. Fusce quis dui sit amet risus mattis elementum quis sit amet lectus.</p>
+					 </div>
+				</div>
+			</div>
+			<div class="col-lg-12"><div class="separator-bottom" id="anchor__contact"></div></div>
+		</div>
+	</div>
+
+
+	<div class="block">
+		<div class="row">
+			<div class="col-lg-12"><h1>Contact</h1></div>
+			<div class="col-lg-12"><div class="separator-top"></div></div>
+			<div class="col-lg-8 contact__left">
+				<p>Donec vel est elit. Morbi augue enim, lobortis a commodo vitae, sodales in arcu. Suspendisse dapibus lacinia sem at molestie. Sed auctor tempus ullamcorper. Ut sed bibendum odio. Quisque tincidunt luctus convallis.</p>
+				<div class="row contact__left__form">
+					<div class="col-lg-3 contact__left__form__names">
+						<h4>Name</h4>
+						<h4>Email</h4>
+						<h4>Message</h4>
+					</div>
+					<form id="contact__form"></form>
+					<div class="col-lg-9 contact__left__form__inputs">
+						<input type="text" placeholder="Name" name="name" form="contact__form" />
+						<input type="email" placeholder="Email" name="email" form="contact__form" />
+						<input type="text" placeholder="Message" name="password" form="contact__form" />
+					</div>
+					<div class="col-lg-8 contact__left__form__gap">
+						
+					</div>
+					<div class="col-lg-2 contact__left__form__button">
+						<input type="reset" value="RESET" name="reset" form="contact__form" />
+					</div>
+					<div class="col-lg-2 contact__left__form__button">
+						<input type="submit" value="SEND" name="send" form="contact__form" />
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 contact__info">
+				<h2>Contact informations</h2>
+				<p>Feel free to contact us for any of your projects, we’ll gat back to you as soon as possible!</p>
+				<div class="contact__info__item__1">
+					<p>Company name</p>
+					<p>789 Street name</p>
+					<p>999 00 City name, Country</p>
+				</div>
+				<div class="contact__info__item__2">
+					<p>Phone : +000 987 654 321</p>
+					<p>Fax : +000 123 456 789</p>
+				</div>
+				<div class="contact__info__item__3">
+					<p>Email :
+						<a href="#">sales@yourcompany.com</a>
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-12"><div class="separator-bottom" id="anchor__contact"></div></div>
+		</div>
+	</div>
+</main>
+</div>
+
+<footer class="footer">
+	<div class="row footer__container">
+		<div class="col-lg-4 footer__container__item">
+			<h2>Social networks</h2>
+			<p>For all news and updates, join us on the social networks and stay tuned ! </p>
+			<div class="flex-row">
+				<a href="#"><div class="footer__container__item__social"></div></a>
+				<a href="#"><div class="footer__container__item__social"></div></a>
+				<a href="#"><div class="footer__container__item__social"></div></a>
+				<a href="#"><div class="footer__container__item__social"></div></a>
+				<a href="#"><div class="footer__container__item__social"></div></a>
+			</div>
+		</div>
+		<div class="col-lg-4 footer__container__item">
+			<h2>Freelance work</h2>
+			<p>I'm currently available for freelance work, I can design for you a brand new website or create an awesome logo.</p>
+			<p>Just <a href="#">drop me an email</a> to get in touch !</p>
+		</div>
+		<div class="col-lg-4 footer__container__item">
+			<p>This theme uses 100% valid <br />
+				<a href="#">HTML</a> and <a href="#">CSS</a></p>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
